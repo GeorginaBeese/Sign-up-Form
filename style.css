@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'nobile';
+    src: url('font/Nobile-Regular.ttf') format('ttf');
+  }
+
+
+
+body {
+  display: flex;
+  margin: auto;
+  height: 100vh;
+  background-color: rgb(249, 249, 249);
+}
+
+.left-side {
+  background: no-repeat center/100%
+  url("Background.JPG");
+  position: relative;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:space-around
+}
+
+
+.right-side {
+  width: 60%;
+  height: fit-content;
+}
+
+.sign-up-logo {
+  background-color: rgba(255,255,255,0.5);
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:space-around;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding-bottom: 10px;
+  width: 40%;
+  color: white;
+  text-align: center;
+}
+
+.sign-up-form, .existing-account, .sign-up-header {
+  padding: 20px 70px;
+}
+
+.sign-up-form {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.sign-up-form label {
+  display: block;
+  padding: 5px 0px;
+  }
+
+.sign-up-form-header {
+  width: 100%;
+}
+
+h3 {
+  color: rgb(16, 16, 16);
+}
+
+.sign-up-form .form-row {
+  width: 50%;
+  padding-bottom: 10px;
+  color: rgb(69, 69, 69);
+  font-weight: bold;
+}
+
+input {
+  width: 200px;
+  height: 20px;
+  border: 1.5px solid #000;
+  border-radius: 4px;
+}
+
+input:invalid {
+  border-color: rgb(146, 0, 0);
+}
+
+input:focus {
+  border-color: rgb(17, 168, 219);
+}
+
+
+.sign-up-form button {
+  font-family: "nobile";
+  font-size: 1em;
+  padding: 5px 10px;
+  margin-top: 10px;
+  color: white;
+  background-color: rgb(67, 67, 67);
+  border-radius: 5px;
+  border: none;
+}
+
+.existing-account button {
+  color: rgb(44, 44, 44);
+  background: none;
+  border: none;
+  font-weight: bold;
+  font-family: "nobile"; 
+  font-size: 1.17em;
+
+}
+
+.existing-account {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: row;  
+}
+
+.existing-account label {
+  color: rgb(100, 100, 100);
+  font-weight: bold;
+}
+
+
